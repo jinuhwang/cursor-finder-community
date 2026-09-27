@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "golden-orbit",
+  "name": "Golden Orbit",
+  "authorID": "mangocandy-studio",
+  "author": "MangoCandy Studio",
+  "summary": "Warm rings with three orbiting lights.",
+  "license": "CC-BY-4.0",
+  "credit": "MangoCandy Studio",
+  "layers": [
+    {
+      "kind": "ring",
+      "motion": "expand",
+      "color": "#F7C66D",
+      "count": 3,
+      "radius": 66,
+      "width": 2,
+      "opacity": 0.7,
+      "period": 2.5
+    },
+    {
+      "kind": "glow",
+      "motion": "orbit",
+      "color": "#FFE7AC",
+      "count": 3,
+      "radius": 40,
+      "width": 5,
+      "opacity": 0.85,
+      "period": 4
+    }
+  ]
+}

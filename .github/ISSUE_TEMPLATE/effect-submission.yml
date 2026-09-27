@@ -1,0 +1,35 @@
+name: Submit an effect
+description: Submit a Cursor Finder effect for gallery review
+title: "Effect: "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Effect name
+    validations:
+      required: true
+  - type: textarea
+    id: file
+    attributes:
+      label: Effect file
+      description: Attach the .cfeffect.txt file exported by Submit to Gallery, or paste its JSON. Do not include private information.
+    validations:
+      required: true
+  - type: textarea
+    id: credits
+    attributes:
+      label: Credits and permissions
+      description: List any source effects and required attribution. Say if this is entirely your original work.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      options:
+        - label: I tested this effect in Cursor Finder on a Mac.
+          required: true
+        - label: I have permission to share this effect under the license in the file and have retained the required credits.
+          required: true
+        - label: I understand this submission is public and will be reviewed before appearing in the gallery.
+          required: true

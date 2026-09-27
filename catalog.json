@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "effects": [
+    {
+      "version": 1,
+      "id": "golden-orbit",
+      "name": "Golden Orbit",
+      "authorID": "mangocandy-studio",
+      "author": "MangoCandy Studio",
+      "summary": "Warm rings with three orbiting lights.",
+      "license": "CC-BY-4.0",
+      "credit": "MangoCandy Studio",
+      "layers": [
+        {
+          "kind": "ring",
+          "motion": "expand",
+          "color": "#F7C66D",
+          "count": 3,
+          "radius": 66,
+          "width": 2,
+          "opacity": 0.7,
+          "period": 2.5
+        },
+        {
+          "kind": "glow",
+          "motion": "orbit",
+          "color": "#FFE7AC",
+          "count": 3,
+          "radius": 40,
+          "width": 5,
+          "opacity": 0.85,
+          "period": 4
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "id": "blue-comet",
+      "name": "Blue Comet",
+      "authorID": "mangocandy-studio",
+      "author": "MangoCandy Studio",
+      "summary": "Cool streaks gather around a small center glow.",
+      "license": "CC-BY-4.0",
+      "credit": "MangoCandy Studio",
+      "layers": [
+        {
+          "kind": "rays",
+          "motion": "contract",
+          "color": "#75CFFF",
+          "count": 36,
+          "radius": 260,
+          "width": 2,
+          "opacity": 0.8,
+          "period": 1.2
+        },
+        {
+          "kind": "glow",
+          "motion": "pulse",
+          "color": "#DEF7FF",
+          "count": 1,
+          "radius": 10,
+          "width": 3,
+          "opacity": 0.9,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "id": "violet-focus",
+      "name": "Violet Focus",
+      "authorID": "mangocandy-studio",
+      "author": "MangoCandy Studio",
+      "summary": "A compact violet highlight for following the pointer.",
+      "license": "CC-BY-4.0",
+      "credit": "MangoCandy Studio",
+      "layers": [
+        {
+          "kind": "ring",
+          "motion": "pulse",
+          "color": "#C7A5FF",
+          "count": 1,
+          "radius": 28,
+          "width": 2.5,
+          "opacity": 0.8,
+          "period": 3
+        },
+        {
+          "kind": "glow",
+          "motion": "pulse",
+          "color": "#E9DAFF",
+          "count": 1,
+          "radius": 8,
+          "width": 2,
+          "opacity": 0.85,
+          "period": 3
+        }
+      ]
+    }
+  ]
+}

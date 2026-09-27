@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "blue-comet",
+  "name": "Blue Comet",
+  "authorID": "mangocandy-studio",
+  "author": "MangoCandy Studio",
+  "summary": "Cool streaks gather around a small center glow.",
+  "license": "CC-BY-4.0",
+  "credit": "MangoCandy Studio",
+  "layers": [
+    {
+      "kind": "rays",
+      "motion": "contract",
+      "color": "#75CFFF",
+      "count": 36,
+      "radius": 260,
+      "width": 2,
+      "opacity": 0.8,
+      "period": 1.2
+    },
+    {
+      "kind": "glow",
+      "motion": "pulse",
+      "color": "#DEF7FF",
+      "count": 1,
+      "radius": 10,
+      "width": 3,
+      "opacity": 0.9,
+      "period": 2
+    }
+  ]
+}

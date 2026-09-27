@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "violet-focus",
+  "name": "Violet Focus",
+  "authorID": "mangocandy-studio",
+  "author": "MangoCandy Studio",
+  "summary": "A compact violet highlight for following the pointer.",
+  "license": "CC-BY-4.0",
+  "credit": "MangoCandy Studio",
+  "layers": [
+    {
+      "kind": "ring",
+      "motion": "pulse",
+      "color": "#C7A5FF",
+      "count": 1,
+      "radius": 28,
+      "width": 2.5,
+      "opacity": 0.8,
+      "period": 3
+    },
+    {
+      "kind": "glow",
+      "motion": "pulse",
+      "color": "#E9DAFF",
+      "count": 1,
+      "radius": 8,
+      "width": 2,
+      "opacity": 0.85,
+      "period": 3
+    }
+  ]
+}
