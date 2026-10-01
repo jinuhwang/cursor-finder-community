@@ -28,3 +28,5 @@ To report an effect, choose **Report Effect…** in its menu, or email **mangoca
 This repository hosts downloadable releases, the update feed and community effect data. It does not contain the application's source code. The free app is supplied by Jinwoo Hwang; MangoCandy Studio is the project name. Licenses on effect data do not grant a license to the app's source code.
 
 [Privacy](PRIVACY.md) · Support: **mangocandy.studio@gmail.com**
+
+The direct-download edition uses [Sparkle](https://sparkle-project.org/). Its copyright and dependency notices are provided in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) and with each downloadable release.
